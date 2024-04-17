@@ -28,7 +28,11 @@ struct ContentView: View {
     var body: some View {
         NavigationStack{
             List(emojiSearchResults) {emoji in
-                EmojiRow(emoji: emoji)
+                NavigationLink{
+                    EmojiDetailView(emoji: emoji)
+                } label: {
+                    EmojiRow(emoji: emoji)
+                }
                 //.listRowSeparator(.hidden)
             }
             .navigationTitle("Emoji")
