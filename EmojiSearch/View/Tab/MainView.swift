@@ -2,7 +2,7 @@
 //  MainView.swift
 //  EmojiSearch
 //
-//  Created by MacBook Pro on 18/04/24.
+//  Created by Aula Faridah on 18/04/24.
 //
 
 import SwiftUI
